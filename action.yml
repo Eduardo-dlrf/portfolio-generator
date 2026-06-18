@@ -1,0 +1,18 @@
+name:  "Portfolio Generator"
+author: "Eduardo de la Rosa"
+description: "Genrates a feed for a Portfolio from a YAML file"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "git-branch"
+  color: "yellow"
+inputs:
+  email:
+    description: The commiter's email address
+    required: True
+    default: ${{ github.actor }}@localhost
+  name:
+    description: The commiter's name
+    required: True
+    default: ${{ github.actor }}
