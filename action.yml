@@ -1,4 +1,4 @@
-name:  "Persona Life Portfolio Generator"
+name:  "Personal Life Portfolio Generator"
 author: "Eduardo de la Rosa"
 description: "Genrates a feed for a Portfolio from a YAML file"
 runs:
